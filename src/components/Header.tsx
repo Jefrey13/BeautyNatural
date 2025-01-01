@@ -19,11 +19,12 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex justify-center items-center space-x-8">
-            <NavLink href="#home">Inicio</NavLink>
-            <NavLink href="#about">Nosotros</NavLink>
-            <NavLink href="#products">Productos</NavLink>
-            <NavLink href="#contact">Contacto</NavLink>
-            <Button variant="default" className="bg-pink-500 text-white hover:bg-pink-600">Comprar ahora</Button>
+            <NavLink href="/">Inicio</NavLink>
+            <NavLink href="/about">Nosotros</NavLink>
+            <NavLink href="/services">Services</NavLink>
+            <NavLink href="/gallery">Gallery</NavLink>
+            <NavLink href="/contact">Contacto</NavLink>
+            <Button variant="default" className="bg-pink-500 text-white hover:bg-pink-600">Contact Us</Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -39,21 +40,24 @@ const Header = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <MobileNavLink href="#home" onClick={toggleMenu}>
+              <MobileNavLink href="/" onClick={toggleMenu}>
                 Inicio
               </MobileNavLink>
-              <MobileNavLink href="#about" onClick={toggleMenu}>
+              <MobileNavLink href="/about" onClick={toggleMenu}>
                 Nosotros
               </MobileNavLink>
-              <MobileNavLink href="#products" onClick={toggleMenu}>
-                Productos
+              <MobileNavLink href="/services" onClick={toggleMenu}>
+                Servicios
               </MobileNavLink>
-              <MobileNavLink href="#contact" onClick={toggleMenu}>
+              <MobileNavLink href="/gallery" onClick={toggleMenu}>
+              Gallery
+              </MobileNavLink>
+              <MobileNavLink href="/contact" onClick={toggleMenu}>
                 Contacto
               </MobileNavLink>
               <div className="pt-2">
                 <Button className="w-full text-white bg-pink-500 hover:bg-pink-600">
-                  Comprar ahora
+                  Contact Us
                 </Button>
               </div>
             </div>

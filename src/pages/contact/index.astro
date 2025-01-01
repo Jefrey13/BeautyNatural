@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ContactInfo from "../../components/contact/ContactInfo";
+import ContactForm from "../../components/contact/ContactForm";
+import ContactSchedule from "../../components/contact/ContactSchedule";
+import ContactMap from "../../components/contact/ContactMap";
+import ContactHero from "../../components/contact/ContactHero";
+
+---
+
+<Layout>
+    <div class="min-h-screen bg-gradient-to-b from-purple-50 via-white to-purple-50">
+        <ContactHero client:load/>
+        <div class="flex flex-wrap md:flex-nowrap">
+          <!-- Contenedor izquierdo -->
+          <div class="w-full md:w-1/2 p-4">
+            <div class="space-y-4">
+              <ContactInfo client:load />
+              <ContactSchedule client:load />
+            </div>
+          </div>
+          
+          <!-- Contenedor derecho -->
+          <div class="w-full md:w-1/2 p-4">
+            <ContactForm client:load />
+          </div>
+        </div>        
+        <ContactMap client:load/>
+      </div>
+</Layout>

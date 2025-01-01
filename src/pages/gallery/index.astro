@@ -1,0 +1,12 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import GalleryHero from "../../components/gallery/GalleryHero";
+import GalleryGrid from "../../components/gallery/GalleryGrid";
+
+---
+<Layout>
+    <div class="min-h-screen bg-gradient-to-b from-purple-50 via-white to-purple-50">
+        <GalleryHero client:load/>
+        <GalleryGrid client:load/>
+      </div>
+</Layout>

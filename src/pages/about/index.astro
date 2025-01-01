@@ -1,0 +1,15 @@
+---
+import AboutHero from "../../components/about/AboutHero";
+import AboutHistory from "../../components/about/AboutHistory";
+import AboutValues from "../../components/about/AboutValues";
+import AboutFeatures from "../../components/about/AboutFeatures";
+import Layout from "../../layouts/Layout.astro";
+---
+<Layout>
+    <div class="min-h-screen">
+        <AboutHero client:load/>
+        <AboutHistory client:load/>
+        <AboutValues client:load/>
+        <AboutFeatures client:load/>
+    </div>
+</Layout>
