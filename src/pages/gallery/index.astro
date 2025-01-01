@@ -2,11 +2,13 @@
 import Layout from "../../layouts/Layout.astro";
 import GalleryHero from "../../components/gallery/GalleryHero";
 import GalleryGrid from "../../components/gallery/GalleryGrid";
+import {ScrollToTop} from '../../components/ScrollToTop'
 
 ---
 <Layout>
     <div class="min-h-screen bg-gradient-to-b from-purple-50 via-white to-purple-50">
         <GalleryHero client:load/>
         <GalleryGrid client:load/>
+        <ScrollToTop client:load/>
       </div>
 </Layout>

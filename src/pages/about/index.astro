@@ -4,6 +4,7 @@ import AboutHistory from "../../components/about/AboutHistory";
 import AboutValues from "../../components/about/AboutValues";
 import AboutFeatures from "../../components/about/AboutFeatures";
 import Layout from "../../layouts/Layout.astro";
+import {ScrollToTop} from '../../components/ScrollToTop'
 ---
 <Layout>
     <div class="min-h-screen">
@@ -11,5 +12,6 @@ import Layout from "../../layouts/Layout.astro";
         <AboutHistory client:load/>
         <AboutValues client:load/>
         <AboutFeatures client:load/>
+        <ScrollToTop client:load/>
     </div>
 </Layout>

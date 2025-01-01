@@ -3,11 +3,13 @@ import ServicesHero from "../../components/services/ServicesHero";
 import ServicesList from "../../components/services/ServicesList";
 import ServicesPricing from "../../components/services/ServicesPricing";
 import Layout from "../../layouts/Layout.astro";
+import {ScrollToTop} from '../../components/ScrollToTop'
 ---
 <Layout>
     <main class="min-h-screen">
         <ServicesHero client:load/>
         <ServicesList client:load/>
         <ServicesPricing client:load/>
+        <ScrollToTop client:load/>
       </main>
 </Layout>
