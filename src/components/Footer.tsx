@@ -17,17 +17,22 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-pink-300 transition-colors">
+                <a href="/about" className="hover:text-pink-300 transition-colors">
                   Nosotros
                 </a>
               </li>
               <li>
-                <a href="#products" className="hover:text-pink-300 transition-colors">
-                  Productos
+                <a href="/services" className="hover:text-pink-300 transition-colors">
+                  Services
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-pink-300 transition-colors">
+                <a href="/gallery" className="hover:text-pink-300 transition-colors">
+                  Gallery
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-pink-300 transition-colors">
                   Contacto
                 </a>
               </li>
@@ -40,7 +45,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>Av. Principal 123, Ciudad</span>
+                <span>Av. Principal 123, Managua, Nicaragua.</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />

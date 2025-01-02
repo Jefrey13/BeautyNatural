@@ -4,11 +4,12 @@ import { Card, CardContent } from "../ui/card";
 const About = () => {
   return (
     <section id="about" className="relative">
+      
       <div className="absolute inset-0 bg-gradient-to-br from-pink-50 via-purple-50 to-rose-50 opacity-70" />
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob" />
         <div className="absolute top-40 right-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000" />
-        <div className="absolute -bottom-20 left-1/2 w-72 h-72 bg-rose-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000" />
+        {/* <div className="absolute -bottom-20 left-1/2 w-72 h-72 bg-rose-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000" /> */}
       </div>
 
       <div className="container mx-auto px-4 py-20 relative">
