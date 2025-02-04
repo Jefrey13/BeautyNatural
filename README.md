@@ -1,9 +1,9 @@
 # Beauty Natural 🌿
 
 **Beauty Natural** is a modern web store for natural cosmetic products. Built with **Astro**, **React**, **Tailwind CSS**, **TypeScript**, and **Framer Motion**, it delivers a responsive design and smooth animations for a premium user experience.
-
-## 🚀 Live Website  
-[Visit Beauty Natural](https://beautynatural.netlify.app)  
+ 
+## 🔗 Live Demo  
+🚀 **[Visit Beauty Natural](https://beautynatural.netlify.app/)**
 
 ---
 
